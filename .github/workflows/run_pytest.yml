@@ -2,7 +2,9 @@ name: Python Testing
 
 on:
   pull_request:
-    branches: [ "develop", "live" ]
+    branches: 
+      - develop
+      - live
 
 jobs:
   test:
